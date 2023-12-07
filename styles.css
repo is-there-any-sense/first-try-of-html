@@ -1,0 +1,86 @@
+header h3 {
+    font-size: 23px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+body {
+    background: ghostwhite;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: normal;
+    color: #000000;
+}
+
+a {
+    color: lightcoral;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+a:hover {
+    font-size: 1.3rem;
+    color: rgb(218, 46, 46);
+}
+
+button {
+    transition: all .4s;
+    border-radius: 25%;
+    width: 60px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background: rgb(169, 225, 243);
+    width: 70px;
+    height: 45px;
+}
+
+input, textarea, button {
+    font-family: 'Nova Square', sans-serif;
+    background: rgb(218, 238, 255);
+    font-size: 16px;
+}
+
+.div {
+    padding: 10px;
+}
+
+.html {
+    border-left: 6px solid rgb(100, 191, 221);
+    background: rgb(209, 237, 247);
+    border-bottom-right-radius: 30px;
+}
+
+.html p {
+    text-decoration: overline; 
+}
+
+.css {
+    border-left: 6px solid lightcoral;
+    background: rgb(243, 181, 181);
+    border-bottom-right-radius: 30px;
+}
+
+.css p {
+    text-decoration: underline;
+}
+
+.container-img {
+    width: 300px;
+}
+
+.container-img img {
+    width: 300px;
+    border-radius: 15%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: all .4s;
+}
+
+.container-img, .container-img img:hover {
+    width: 400px;
+}
