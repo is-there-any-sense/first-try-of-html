@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="nav">
+        <ul>
+            <li><a class="navigate" href="#">Home</a></li>
+            <li><a class="navigate" href="#">Inputs</a></li>
+            <li><a class="navigate" href="#">Image</a></li>
+            <li><a class="navigate" href="#">Footer</a></li>
+        </ul>
+    </div>
+
     <header>
         <h1>HTML skeleton</h1>
         <h3>Header</h3>
@@ -51,30 +61,36 @@
     <div class="container-img">
         <h3>Image</h3>
         <img src="https://images.unsplash.com/photo-1576422626779-e4c2bcffa7dc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img1">
-        <p>This is an <a href="https://images.unsplash.com/photo-1576422626779-e4c2bcffa7dc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">image</a></p>
+        <p>This is an <a class="linked" target="_blank" href="https://images.unsplash.com/photo-1576422626779-e4c2bcffa7dc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">image</a></p>
     </div>
 
     <hr>
 
-    <br>
-    <table style="padding: auto; border: 2px solid black;">
+    <h3>Table</h3>
+
+    <table class="table">
         <thead style="font-weight: bold;">
-            <td>Text</td>
+            <td>Name</td>
             <td>Number</td>
+            <td>Age</td>
         </thead>
         <tbody>
-            <td>Hey</td>
-            <td>One</td>
+            <tr>
+                <td>Sense</td>
+                <td>+79550232145</td>
+                <td>24</td>
+            </tr>   
         </tbody>
     </table>
-    <br>
+
+    <p>This is a table</p>
 
     <hr>
 
     <footer>
         <h3>Footer</h3>
-        <p>Lorem ipsum dolor, <a href="https://ru.wiktionary.org/wiki/sit">sit</a> amet consectetur adipisicing elit. Qui similique debitis maxime! Delectus, iure vitae.</p>
-        <button id="confirm" class="confirm-btn">Okay</button>
+        <p>Lorem ipsum dolor, <a class="linked" target="_blank" href="https://ru.wiktionary.org/wiki/sit">sit</a> amet consectetur adipisicing elit. Qui similique debitis maxime! Delectus, iure vitae.</p>
+        <button id="confirm" class="btn confirm">Okay</button>
     </footer>
 </body>
 </html>

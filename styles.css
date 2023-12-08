@@ -1,3 +1,44 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #c7f0ed;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid #77dbd6;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 15px;
+}
+
+.navigate {
+    border-radius: 20%;
+    padding: 10px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.navigate:hover {
+    background: #a1e7e3;
+    transition: all .4s;
+}
+
+header {
+    padding-top: 50px;
+}
+
 header h3 {
     font-size: 23px;
 }
@@ -15,32 +56,57 @@ body {
     color: #000000;
 }
 
-a {
+.table {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    background: lightblue;
+}
+
+.table td {
+    width: 200px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: ghostwhite;
+    text-align: center;
+}
+
+.linked {
     color: lightcoral;
     text-decoration: none;
     transition: all .4s;
 }
 
-a:hover {
+.linked:hover {
     font-size: 1.3rem;
     color: rgb(218, 46, 46);
 }
 
-button {
+.linked:active {
+    font-size: 1.3rem;
+    color: rgb(155, 17, 17);
+}
+
+.linked:visited {
+    color: rgb(49, 46, 218);
+}
+
+.btn {
     transition: all .4s;
     border-radius: 25%;
     width: 60px;
     height: 35px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
-button:hover {
+.confirm:hover {
     background: rgb(169, 225, 243);
     width: 70px;
     height: 45px;
 }
 
-input, textarea, button {
+input, textarea, .btn {
     font-family: 'Nova Square', sans-serif;
     background: rgb(218, 238, 255);
     font-size: 16px;
@@ -83,4 +149,10 @@ input, textarea, button {
 
 .container-img, .container-img img:hover {
     width: 400px;
+}
+
+@media (max-width: 750px) {
+    body {
+        margin: auto 25px;
+    }
 }
